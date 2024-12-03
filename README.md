@@ -19,26 +19,6 @@ Valida las entradas, las convierte a números y calcula el IMC utilizando la fó
 \]
 
 La función devuelve el valor del IMC redondeado a un decimal, junto con una categoría.
-
-### Clasificación del Índice de Masa Corporal (IMC)
-
-- **Bajo peso:** IMC < 18.5  
-- **Peso normal:** 18.5 ≤ IMC < 24.9  
-- **Sobrepeso:** 25 ≤ IMC < 29.9  
-- **Obesidad:** IMC ≥ 30  
-
-### Fórmula del IMC
-\[
-\text{IMC} = \frac{\text{Peso (kg)}}{\text{Altura (m)}^2}
-\]
-
-La función devuelve el valor del IMC redondeado a un decimal, junto con una categoría como:
-
-- **Bajo peso:** IMC < 18.5
-- **Peso normal:** 18.5 ≤ IMC < 24.9
-- **Sobrepeso:** 25 ≤ IMC < 29.9
-- **Obesidad:** IMC ≥ 30
-
 # Ejemplo 🔍
 
 Código de la función:
@@ -89,6 +69,25 @@ const imc = calcularIMC(weight, height);
   />
 </View>;
 ```
+### Clasificación del Índice de Masa Corporal (IMC)
+
+- **Bajo peso:** IMC < 18.5  
+- **Peso normal:** 18.5 ≤ IMC < 24.9  
+- **Sobrepeso:** 25 ≤ IMC < 29.9  
+- **Obesidad:** IMC ≥ 30  
+
+### Fórmula del IMC
+\[
+\text{IMC} = \frac{\text{Peso (kg)}}{\text{Altura (m)}^2}
+\]
+
+La función devuelve el valor del IMC redondeado a un decimal, junto con una categoría como:
+
+- **Bajo peso:** IMC < 18.5
+- **Peso normal:** 18.5 ≤ IMC < 24.9
+- **Sobrepeso:** 25 ≤ IMC < 29.9
+- **Obesidad:** IMC ≥ 30
+
 ## 🏆 ¡Apóyanos con una Estrella! 🌟
 
 Si este proyecto te ha sido útil o te ha gustado, no dudes en darle una estrella ⭐️ en GitHub. ¡Tu apoyo nos motiva a seguir mejorando! 😊
